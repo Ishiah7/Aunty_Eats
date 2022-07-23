@@ -1,10 +1,16 @@
 import { StyleSheet, Text, View, Image } from "react-native";
 
 const RestaurantItem = ({ restaurant }) => {
-  console.log(restaurant);
   return (
     <View style={styles.restaurantContainer}>
-      <Image source={{ uri: restaurant.image }} style={styles.image} />
+      <Image
+        source={{ uri: restaurant.image }}
+        style={{
+          width: "100%",
+          aspectRatio: 5 / 3,
+          borderRadius: 5,
+        }}
+      />
       <View style={styles.row}>
         <View>
           <Text style={styles.name}>{restaurant.title}</Text>
@@ -28,11 +34,11 @@ const styles = StyleSheet.create({
     width: "100%",
     marginVertical: 10,
   },
-  image: {
-    width: "100%",
-    aspectRatio: 5 / 3,
-    marginBottom: 5,
-  },
+  // image: {
+  //   width: "100%",
+  //   aspectRatio: 5 / 3,
+  //   marginBottom: 5,
+  // },
   title: {
     fontSize: 2,
     fontWeight: "bold",

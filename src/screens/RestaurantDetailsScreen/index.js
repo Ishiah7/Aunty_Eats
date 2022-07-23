@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   image: {
     width: "100%",
     aspectRatio: 5 / 3,
-    borderRadius: "8px",
+    borderRadius: 8,
   },
   title: {
     fontSize: 35,

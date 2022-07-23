@@ -6,7 +6,7 @@ import RestaurantDetailsPage from "./src/screens/RestaurantDetailsScreen";
 export default function App() {
   return (
     <View style={styles.container}>
-      <RestaurantDetailsPage />
+      <HomeScreen />
 
       <StatusBar style="auto" />
     </View>
