@@ -71,6 +71,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
+    marginBottom: 10,
   },
   tabButton: {
     marginHorizontal: 20,
