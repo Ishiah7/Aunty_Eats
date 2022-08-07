@@ -21,7 +21,6 @@ export default function HomeScreen() {
     }
   }, [tab]);
 
-  console.log(filtered);
   return (
     <View style={styles.page}>
       <View style={styles.row}>
